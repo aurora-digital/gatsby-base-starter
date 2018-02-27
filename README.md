@@ -1,5 +1,5 @@
 # gatsby-eslint-scss-analytics
-Gatsby with ESLint, Prettier and Stylelint. Comes with SCSS support out of the box. Also has Google Analytics.
+Gatsby with ESLint, Prettier and Stylelint. Comes with SCSS/PostCSS with vendor autoprefixing support out of the box. Also has Google Analytics.
 
 Also includes Reboot.css, made by Bootstrap (does not include any Bootstrap component however).
 
