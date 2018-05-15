@@ -1,16 +1,14 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import "./index.scss";
+import "./index.css";
 
 const Header = () => (
-  <div className="header">
-    <div className="header-inner">
-      <h1 style={{ margin: 0 }}>
-        <Link to="/" className="header-link">
-          Gatsby
-        </Link>
-      </h1>
+  <div styleName="header">
+    <div styleName="header-inner">
+      <Link to="/" styleName="header-link">
+        Gatsby
+      </Link>
     </div>
   </div>
 );
