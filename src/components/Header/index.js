@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 
 import "./index.css";
 
-const Header = () => (
+export default () => (
   <div styleName="header">
     <div styleName="header-inner">
       <Link to="/" styleName="header-link">
@@ -12,5 +12,3 @@ const Header = () => (
     </div>
   </div>
 );
-
-export default Header;

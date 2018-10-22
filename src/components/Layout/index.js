@@ -1,26 +1,30 @@
 import React, { Component } from "react";
+import { graphql, StaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
-import Header from "../components/Header";
+import Header from "../Header";
 
-import "./reset.css";
-
-export const pageQuery = graphql`
-  query PageQuery {
-    site {
-      siteMetadata {
-        title
-        description
-        keywords
+export default props => (
+  <StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+            keywords
+          }
+        }
       }
-    }
-  }
-`;
+    `}
+    render={data => <Layout data={data} {...props} />}
+  />
+);
 
-export default class TemplateWrapper extends Component {
+class Layout extends Component {
   static propTypes = {
-    children: PropTypes.func.isRequired,
+    children: PropTypes.node.isRequired,
     data: PropTypes.shape({
       site: PropTypes.shape({
         siteMetadata: PropTypes.shape({
@@ -55,7 +59,7 @@ export default class TemplateWrapper extends Component {
             paddingTop: 0,
           }}
         >
-          {this.props.children()}
+          {this.props.children}
         </div>
       </div>
     );

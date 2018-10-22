@@ -2,6 +2,9 @@
   "plugins": [
     "stylelint-order"
   ],
+  "extends": [
+    "stylelint-config-prettier"
+  ],
   "rules": {
     "max-nesting-depth": 3,
     "indentation": 2,
@@ -13,7 +16,6 @@
       {
         emptyLineBefore: "never",
         properties: [
-          "composes",
           "content",
           "counter-increment",
           "counter-reset",
@@ -45,6 +47,14 @@
           "flex-grow",
           "flex-shrink",
           "flex-basis",
+          "justify-self",
+          "grid-area",
+          "grid-column",
+          "grid-column-start",
+          "grid-column-end",
+          "grid-row",
+          "grid-row-start",
+          "grid-row-end",
           "display",
           "flex-flow",
           "flex-direction",
@@ -52,6 +62,18 @@
           "align-content",
           "align-items",
           "justify-content",
+          "justify-items",
+          "grid",
+          "grid-auto-columns",
+          "grid-auto-rows",
+          "grid-auto-flow",
+          "grid-gap",
+          "grid-column-gap",
+          "grid-row-gap",
+          "grid-template",
+          "grid-template-columns",
+          "grid-template-rows",
+          "grid-template-areas",
           "box-sizing",
           "visibility",
           "float",
