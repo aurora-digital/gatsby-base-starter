@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: "https://example.com",
     title: "Gatsby base starter",
     author: "José Francisco",
     description:
@@ -26,5 +27,7 @@ module.exports = {
         anonymize: true,
       },
     },
+    "gatsby-plugin-offline",
+    "gatsby-plugin-sitemap"
   ],
 };
