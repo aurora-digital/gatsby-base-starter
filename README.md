@@ -7,5 +7,10 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Install this starter (assuming Gatsby is installed via `yarn global add gatsby`) by running from your CLI:
 ```
-gatsby new gatsby-example-site https://github.com/jfranciscosousa/gatsby-base-starter
+gatsby new gatsby-example-site https://github.com/svhealth/gatsby-base-starter
 ```
+
+## Scripts
+Run `yarn dev` to run in development mode.
+
+Run `yarn build` to output the website to a `public` folder. Ideal for production environments.
