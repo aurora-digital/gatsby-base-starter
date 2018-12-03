@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import { graphql, StaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-
 import Header from "../Header";
+
+import "./index.css";
 
 export default props => (
   <StaticQuery
@@ -44,23 +45,18 @@ class Layout extends Component {
     } = this.props.data.site.siteMetadata;
 
     return (
-      <div>
+      <div styleName="root">
         <Helmet>
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
           <meta name="keywords" content={siteKeywords} />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+          />
         </Helmet>
         <Header />
-        <div
-          style={{
-            margin: "0 auto",
-            maxWidth: 960,
-            padding: "0px 1.0875rem 1.45rem",
-            paddingTop: 0,
-          }}
-        >
-          {this.props.children}
-        </div>
+        <div>{this.props.children}</div>
       </div>
     );
   }

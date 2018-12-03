@@ -27,7 +27,6 @@
     "lint-styles-fix": "stylelint \"src/**/*.css\" \"src/**/*.scss\" --fix"
   },
   "dependencies": {
-    "autoprefixer": "^9.1.5",
     "babel-plugin-react-css-modules": "^3.4.2",
     "eslint-plugin-prettier": "^2.6.0",
     "gatsby": "^2.0.1",
