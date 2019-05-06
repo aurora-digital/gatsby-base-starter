@@ -1,6 +1,6 @@
 {
   "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "react-hooks"],
   "parser": "babel-eslint",
   "globals": {
     "__DEVELOPMENT__": true,
@@ -59,7 +59,15 @@
         "specialLink": ["to"]
       }
     ],
+    "import/no-unresolved": [
+      2,
+      {
+        "ignore": ["root/"]
+      }
+    ],
     "react/jsx-filename-extension": "off",
-    "react/prefer-stateless-function": "off"
+    "react/prefer-stateless-function": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }

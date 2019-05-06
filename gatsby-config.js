@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://example.com",
@@ -25,6 +27,18 @@ module.exports = {
         trackingId: "trackingIDhere",
         head: true,
         anonymize: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        root: path.join(__dirname, "src"),
+      },
+    },
+    {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        root: path.join(__dirname, "src"),
       },
     },
     "gatsby-plugin-sitemap",
