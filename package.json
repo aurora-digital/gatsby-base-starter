@@ -27,7 +27,7 @@
     "lint-styles-fix": "stylelint \"src/**/*.css\" \"src/**/*.scss\" --fix"
   },
   "dependencies": {
-    "babel-plugin-react-css-modules": "^5.2.4",
+    "babel-plugin-react-css-modules": "^5.2.6",
     "babel-polyfill": "^6.26.0",
     "core-js": "^2.6.5",
     "eslint-plugin-prettier": "^3.0.1",
