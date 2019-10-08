@@ -1,8 +1,10 @@
+const path = require("path");
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://example.com",
     title: "Gatsby base starter",
-    author: "José Francisco",
+    author: "Aurora Digital",
     description:
       "A gatsby starter with ESLint, Prettier, Stylelint, Postcss modules and analytics",
     keywords: "gatsby, starter, eslint, postcss, analytics",
@@ -25,6 +27,12 @@ module.exports = {
         trackingId: "trackingIDhere",
         head: true,
         anonymize: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        root: path.join(__dirname, "src"),
       },
     },
     "gatsby-plugin-sitemap",

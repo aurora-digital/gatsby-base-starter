@@ -1,7 +1,8 @@
 @import "../../styles/breakpoints.css";
 
 .root {
-  width: 100%;
+  box-sizing: content-box;
+  padding: 32px;
 
   @include Breakpoint-desktopOnly {
     margin: 0 auto;
