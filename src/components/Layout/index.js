@@ -38,11 +38,12 @@ class Layout extends Component {
   };
 
   render() {
+    const { data, children } = this.props;
     const {
       title: siteTitle,
       description: siteDescription,
       keywords: siteKeywords,
-    } = this.props.data.site.siteMetadata;
+    } = data.site.siteMetadata;
 
     return (
       <div styleName="root">
@@ -56,7 +57,7 @@ class Layout extends Component {
           />
         </Helmet>
         <Header />
-        <div>{this.props.children}</div>
+        <div>{children}</div>
       </div>
     );
   }
