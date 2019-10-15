@@ -34,7 +34,7 @@
     "gatsby-link": "^2.2.22",
     "gatsby-plugin-google-analytics": "^2.1.21",
     "gatsby-plugin-postcss": "^2.1.13",
-    "gatsby-plugin-react-helmet": "^3.1.11",
+    "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-root-import": "^2.0.5",
     "gatsby-plugin-sharp": "^2.2.31",
     "gatsby-plugin-sitemap": "^2.2.17",
