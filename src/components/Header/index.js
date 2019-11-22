@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import "./index.css";
+import styles from "./index.module.css";
 
 export default function Header() {
   return (
-    <header styleName="header">
-      <div styleName="header-inner">
-        <Link to="/" styleName="header-link">
+    <header className={styles.root}>
+      <div className={styles.inner}>
+        <Link to="/" className={styles.link}>
           Gatsby
         </Link>
       </div>
