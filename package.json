@@ -21,7 +21,7 @@
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "lint": "stylelint 'src/**/*.css'",
+    "lint": "eslint src",
     "lint-styles": "stylelint \"src/**/*.css\" \"src/**/*.scss\""
   },
   "dependencies": {
