@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./index.css";
+import styles from "./index.module.css";
 
 function Layout({ children }) {
-  return <div styleName="root">{children}</div>;
+  return <div className={styles.root}>{children}</div>;
 }
 
 Layout.propTypes = {
