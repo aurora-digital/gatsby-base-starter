@@ -38,7 +38,7 @@
     "gatsby-plugin-sharp": "^2.3.5",
     "gatsby-plugin-sitemap": "^2.2.22",
     "gatsby-source-filesystem": "^2.1.40",
-    "gatsby-transformer-sharp": "^2.3.7",
+    "gatsby-transformer-sharp": "^2.3.9",
     "intersection-observer": "^0.7.0",
     "postcss-import": "^12.0.1",
     "precss": "^4.0.0",
