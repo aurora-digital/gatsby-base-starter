@@ -7,7 +7,7 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Install this starter (assuming Gatsby is installed via `yarn global add gatsby`) by running from your CLI:
 ```
-gatsby new gatsby-example-site https://github.com/svhealth/gatsby-base-starter
+gatsby new gatsby-example-site https://github.com/aurora-digital/gatsby-base-starter
 ```
 
 ## Scripts
