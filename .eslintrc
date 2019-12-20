@@ -121,5 +121,6 @@
     "react/static-property-placement": "off",
     "react/state-in-constructor": "off",
     "react-hooks/rules-of-hooks": "error",
+    "import/extensions": "off"
   }
 }
