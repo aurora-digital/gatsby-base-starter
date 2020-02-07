@@ -36,7 +36,7 @@
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-root-import": "^2.0.5",
     "gatsby-plugin-sharp": "^2.4.4",
-    "gatsby-plugin-sitemap": "^2.2.26",
+    "gatsby-plugin-sitemap": "^2.2.27",
     "gatsby-source-filesystem": "^2.1.47",
     "gatsby-transformer-sharp": "^2.3.13",
     "intersection-observer": "^0.7.0",
