@@ -19,8 +19,13 @@ function SEO({ title, description, keywords }) {
 
 SEO.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  keywords: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  keywords: PropTypes.string,
+};
+
+SEO.defaultProps = {
+  description: "",
+  keywords: "",
 };
 
 export default SEO;
