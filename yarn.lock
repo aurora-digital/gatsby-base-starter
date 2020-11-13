@@ -1030,14 +1030,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.11.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
-  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.10.0":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
   integrity sha512-J5AIf3vPj3UwXaAzb5j1xM4WAQDX3EMgemF8rjCP3SoW09LfRKAXQKt6CoVYl230P6iWdRcBbnLDDdnqWxZSCA==
@@ -6961,13 +6954,13 @@ gatsby-plugin-page-creator@^2.3.33:
     graphql "^14.7.0"
     lodash "^4.17.20"
 
-gatsby-plugin-postcss@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-3.0.3.tgz#1908471d56a46b8410d8842948d1ccd7a47b1605"
-  integrity sha512-7x3zwHnSFpQcEC88mkh1EIQhQvntkXu5q2ijKiUhrsC4niFJ1rvZVETFKpH9WCM3RwOx3l+teediZiDMzSqc+A==
+gatsby-plugin-postcss@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-3.1.0.tgz#cd70237fa024db22cd264215ecf10f48cc3bb666"
+  integrity sha512-T9ad8SfpmPl1Hus5jEirsf/s1p6qJ0UMvFbZoxr/3jLHsj3XdnbkMXy+F99z+2bnpwizxeoQkqf9MRqaaRtjTQ==
   dependencies:
     "@babel/runtime" "^7.11.2"
-    postcss-loader "^4.0.2"
+    postcss-loader "^4.0.4"
 
 gatsby-plugin-react-helmet@^3.3.14:
   version "3.3.14"
@@ -11686,7 +11679,7 @@ postcss-loader@^3.0.0:
     postcss-load-config "^2.0.0"
     schema-utils "^1.0.0"
 
-postcss-loader@^4.0.2:
+postcss-loader@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-4.0.4.tgz#b2d005b52e008a44991cf8123bee207e635eb53e"
   integrity sha512-pntA9zIR14drQo84yGTjQJg1m7T0DkXR4vXYHBngiRZdJtEeCrojL6lOpqUanMzG375lIJbT4Yug85zC/AJWGw==
