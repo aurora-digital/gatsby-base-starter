@@ -35,7 +35,7 @@
     "gatsby-plugin-postcss": "^3.0.3",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-root-import": "^2.0.5",
-    "gatsby-plugin-sharp": "^2.6.42",
+    "gatsby-plugin-sharp": "^2.11.2",
     "gatsby-plugin-sitemap": "^2.4.17",
     "gatsby-source-filesystem": "^2.3.35",
     "gatsby-transformer-sharp": "^2.5.18",
